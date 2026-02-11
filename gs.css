@@ -39,3 +39,15 @@
 .arac { color: #ef6c00; }     /* Orange */
 .all { color: #6a1b9a; }      /* Purple */
 .princess { color: #ad1457; }  /* Pink/Magenta */
+
+.cast-table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+.cast-table th, .cast-table td {
+    border: 2px solid #444;
+    padding: 10px;
+    text-align: left;
+}
+.cast-table tr:nth-child(even) { background-color: #f2f2f2; } /* Zebra stripes */
